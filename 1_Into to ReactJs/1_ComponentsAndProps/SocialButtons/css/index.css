@@ -1,1 +1,54 @@
+/* Apply background and font styles */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
 
+.bg-container {
+    background-image: url("../images/social-buttons-bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    font-family: "Bree Serif", serif;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button styling */
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Specific button colors */
+.like-btn {
+    background-color: #eab308;
+    color: #000000;
+}
+
+.comment-btn {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.share-btn {
+    background-color: #1d4ed8;
+    color: #ffffff;
+}
